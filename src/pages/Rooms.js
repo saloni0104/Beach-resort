@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function home() {
+export default function Rooms() {
     return (
         <div>
-            hello from home page
+            Hello from Rooms page
         </div>
     )
 }
