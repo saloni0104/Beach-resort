@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function RoomsList() {
+export default function RoomsFilter() {
     return (
         <div>
-            Hello from roomlist
+            hello from Rooms Filter
         </div>
     )
 }
