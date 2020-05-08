@@ -8,7 +8,7 @@ export default class Services extends Component {
             {
                 icon:<FaCocktail />,
                 title:"free-cocktails",
-                info:'Have a rejuvenated stay at Beach Valley with Free cocktails at your service.',
+                info:'Have a rejuvenated stay at Paradise Beach Resort with Free cocktails at your service.',
 
             },
             {
