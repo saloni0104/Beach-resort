@@ -77,8 +77,8 @@ const RoomContext = React.createContext();
 
         let tempRooms = [...rooms];
         // transform the values
-        capacity = parseInt(capacity)
-
+        capacity = parseInt(capacity);      //since the values were in string before
+        price = parseInt(price);
 
         //filter by type
         if(type !== 'all') {
@@ -90,7 +90,11 @@ const RoomContext = React.createContext();
             tempRooms = tempRooms.filter(room => room.capacity >= capacity);
         }
 
-        
+        //filter by price
+        tempRooms = tempRooms.filter(room => room.price <=price);
+
+
+        //change state
         this.setState({
             sortedRooms: tempRooms
         })
